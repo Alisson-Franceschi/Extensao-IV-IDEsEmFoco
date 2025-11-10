@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #6F96A6;
+    --cor2: #9FBFBF;
+    --cor3: #A1BF60;
+    --cor4: #A6633C;
+    --cor5: #73493F;
+    --cor6: #16120f;
+    --cor7: #000000;
+    --corcaixa2:#719c9c;
+
+    --fontepadrao: 'Times New Roman', Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    font-family: var(--fontepadrao);
+}
+nav{
+    background-color: var(--cor2);
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.imagemmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+.imagemmenu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img{
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+p {
+    text-align: justify;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:5px;
+    margin-top: 5px;
+    padding: 10px;
+    color:var(--cor7)
+}
+
+h1 {
+    font-family: var(--fontepadrao);
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:5px;
+    margin-top: 5px;
+    padding: 10px;
+    padding: 0px;
+}
+
+
+.divbox2 {
+    background-color: var(--cor2); 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 9px 10px rgba(0, 0, 0, 0.479); 
+    color: var(--cor-text, #000000); 
+    font-family: var(--fontepadrao, Arial, sans-serif); 
+    text-align: center; 
+    line-height: 1.6; 
+    letter-spacing: 0.5px; 
+    border: 2px solid rgba(0, 0, 0, 0.1); 
+}
+ .caixa {
+    background-color: var(--cor2); 
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    color: var(--cor-text, #000000); 
+    font-family: var(--fontepadrao, Arial, sans-serif); 
+    text-align: center; 
+    line-height: 1.6; 
+    letter-spacing: 0.5px; 
+    border: 2px solid rgba(0, 0, 0, 0.1);
+        }
+
